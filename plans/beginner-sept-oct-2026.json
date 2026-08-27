@@ -1,0 +1,1066 @@
+{
+  "_type": "advanced-cycle",
+  "_appTitle": "Beginner Cycle",
+  "_accent": "#2FA84F",
+  "_accent2": "#3E8E7E",
+  "CYCLE_TITLE": "Beginner Cycle — September/October 2026",
+  "CYCLE_SUBTITLE": "Songahm 3  •  Gumdo  •  Board Break  •  Free Sparring: Belief & Self-Esteem",
+  "ALL_CLASSES": [
+    {
+      "week": 1,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Pogo hops, tuck jumps — priming explosive hip drive"
+      },
+      "sparring": {
+        "theme": "Offense",
+        "drill": "Offensive #1 Side Kick, #2 Round Kick — solo, trajectory/form",
+        "conditioning": "Speed Kicks; Round Kicks 10s (2 sets/leg)",
+        "noContact": "Statue Free Sparring",
+        "contact": "— (building aptitude)",
+        "itp": "I",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 1 Intro",
+        "detail": "Moves 1–2: L Knifehand Strike → L Double Knifehand Block"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Individual",
+        "technique": "Front Kick (#1 or #2)",
+        "detail": "Solo kick mechanics — chamber & extension",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "I — Individual",
+        "detail": "Horizontal Cut Combo: solo drilling — stance, base trajectory, follow-through, joint position"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Baseline test — establish your own starting number"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 1,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Pogo hops, tuck jumps — priming explosive hip drive"
+      },
+      "sparring": {
+        "theme": "Offense",
+        "drill": "Offensive #1 Side Kick, #2 Round Kick — applied to pad/target",
+        "conditioning": "Speed Kicks; Round Kicks 10s (2 sets/leg)",
+        "noContact": "3-Move Free Sparring",
+        "contact": "—",
+        "itp": "I→T",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "I→P blend",
+        "detail": "Horizontal Cut Combo: partner-based, slow motion"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 2 Intro",
+        "detail": "Moves 3–4: R #4 Front Kick → L #2 Round Kick"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Front Kick (#1 or #2)",
+        "detail": "Kick applied to pad",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Baseline test — establish your own starting number"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 1,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Pogo hops, tuck jumps — priming explosive hip drive"
+      },
+      "sparring": {
+        "theme": "Offense",
+        "drill": "Combine Mon/Tue + Wed/Thu drill work",
+        "conditioning": "Speed Kicks; Round Kicks 10s (2 sets/leg)",
+        "noContact": "Free Sparring (live, no contact)",
+        "contact": "— confirm aptitude before progressing",
+        "itp": "T→P",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Mix & Review",
+        "detail": "Segments 1–2 combined (moves 1–4)"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Front Kick (#1 or #2)",
+        "detail": "Kick on board, at individual level",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "Mix & Review",
+        "detail": "Horizontal Cut Combo: combine Mon/Tue + Wed/Thu work, live but unhurried"
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "Baseline test — establish your own starting number"
+      },
+      "cue": "Drill Cue: \"Offense\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 2,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Pogo hops, tuck jumps — priming explosive hip drive"
+      },
+      "sparring": {
+        "theme": "Offense",
+        "drill": "Offensive #1 Side Kick, #2 Round Kick — partner-reactive",
+        "conditioning": "Speed Kicks; Round Kicks 10s (2 sets/leg)",
+        "noContact": "Statue→3-Move→Free (review)",
+        "contact": "Free Sparring — light/controlled",
+        "itp": "P intro",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 3 Intro",
+        "detail": "Moves 5–6: L Knifehand Low Block → L Knifehand High Block"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Individual",
+        "technique": "Front Kick (#1 or #2)",
+        "detail": "Solo kick mechanics — chamber & extension",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "T — Target",
+        "detail": "Horizontal Cut Combo: target work with a partner (linchpin between solo and live)"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Baseline test — establish your own starting number"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 2,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Pogo hops, tuck jumps — priming explosive hip drive"
+      },
+      "sparring": {
+        "theme": "Offense",
+        "drill": "Offensive #1 Side Kick, #2 Round Kick — live application",
+        "conditioning": "Speed Kicks; Round Kicks 10s (2 sets/leg)",
+        "noContact": "Free Sparring",
+        "contact": "Free Sparring — full application",
+        "itp": "P",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "P — Partner",
+        "detail": "Horizontal Cut Combo: full partner sword drilling"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Refine & Combine",
+        "detail": "Segments 1–3 together (moves 1–6)"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Front Kick (#1 or #2)",
+        "detail": "Kick applied to pad",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Baseline test — establish your own starting number"
+      },
+      "cue": "Drill Cue: \"Offense\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 2,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Pogo hops, tuck jumps — priming explosive hip drive"
+      },
+      "sparring": {
+        "theme": "Offense",
+        "drill": "Full block review, all drills",
+        "conditioning": "Speed Kicks; Round Kicks 10s (2 sets/leg)",
+        "noContact": "Free Sparring",
+        "contact": "Free Sparring — readiness check",
+        "itp": "Mix & Review",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "Mix & Review",
+        "detail": "Horizontal Cut Combo complete — combine Mon/Tue + Wed/Thu, ready to layer into combo"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Mix & Review",
+        "detail": "Moves 1–6 solid"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Front Kick (#1 or #2)",
+        "detail": "Kick on board, at individual level",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "Baseline test — establish your own starting number"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 3,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds/shuffles — priming quick direction change"
+      },
+      "sparring": {
+        "theme": "Defense / Counter Attack",
+        "drill": "Side Step, #1 Side Kick or Punch — solo, trajectory/form",
+        "conditioning": "Pump Round Kicks 10s (2 sets/leg)",
+        "noContact": "Statue Free Sparring",
+        "contact": "— (building aptitude)",
+        "itp": "I",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 4 Intro",
+        "detail": "Moves 7–10: R Punch (KI-HAP) → L Punch (KI-HAP) → R Vert. Spearhand → L Vert. Spearhand — taught as one continuous combo"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Individual (reset)",
+        "technique": "Reverse Elbow Strike",
+        "detail": "Solo elbow strike mechanics — new technique, confidence reset",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "I — Individual",
+        "detail": "Sweeping Block and Cut: solo drilling — stance, base trajectory, follow-through, joint position"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Drill Cue: \"Defense / Counter Attack\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 3,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds/shuffles — priming quick direction change"
+      },
+      "sparring": {
+        "theme": "Defense / Counter Attack",
+        "drill": "Side Step, #1 Side Kick or Punch — applied to pad/target",
+        "conditioning": "Pump Round Kicks 10s (2 sets/leg)",
+        "noContact": "3-Move Free Sparring",
+        "contact": "—",
+        "itp": "I→T",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "I→P blend",
+        "detail": "Sweeping Block and Cut: partner-based, slow motion"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 4 Refine",
+        "detail": "Clean up mechanics, add speed and precision"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Reverse Elbow Strike",
+        "detail": "Strike applied to pad",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 3,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds/shuffles — priming quick direction change"
+      },
+      "sparring": {
+        "theme": "Defense / Counter Attack",
+        "drill": "Combine Mon/Tue + Wed/Thu drill work",
+        "conditioning": "Pump Round Kicks 10s (2 sets/leg)",
+        "noContact": "Free Sparring (live, no contact)",
+        "contact": "— confirm aptitude before progressing",
+        "itp": "T→P",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Mix & Review",
+        "detail": "Segment 4 combined with Segments 1–3 (moves 1–10)"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Reverse Elbow Strike",
+        "detail": "Strike on board, at individual level",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "Mix & Review",
+        "detail": "Sweeping Block and Cut: combine Mon/Tue + Wed/Thu work, live but unhurried"
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 4,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds/shuffles — priming quick direction change"
+      },
+      "sparring": {
+        "theme": "Defense / Counter Attack",
+        "drill": "Side Step, #1 Side Kick or Punch — partner-reactive",
+        "conditioning": "Pump Round Kicks 10s (2 sets/leg)",
+        "noContact": "Statue→3-Move→Free (review)",
+        "contact": "Free Sparring — light/controlled",
+        "itp": "P intro",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 4 Application",
+        "detail": "Full speed and power"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Individual (reset)",
+        "technique": "Reverse Elbow Strike",
+        "detail": "Solo elbow strike mechanics — new technique, confidence reset",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "T — Target",
+        "detail": "Sweeping Block and Cut: target work with a partner (linchpin between solo and live)"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 4,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds/shuffles — priming quick direction change"
+      },
+      "sparring": {
+        "theme": "Defense / Counter Attack",
+        "drill": "Side Step, #1 Side Kick or Punch — live application",
+        "conditioning": "Pump Round Kicks 10s (2 sets/leg)",
+        "noContact": "Free Sparring",
+        "contact": "Free Sparring — full application",
+        "itp": "P",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "P — Partner",
+        "detail": "Sweeping Block and Cut: full partner sword drilling"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 4 Pressure Test",
+        "detail": "Performed under light pressure/fatigue"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Reverse Elbow Strike",
+        "detail": "Strike applied to pad",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 4,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds/shuffles — priming quick direction change"
+      },
+      "sparring": {
+        "theme": "Defense / Counter Attack",
+        "drill": "Full block review, all drills",
+        "conditioning": "Pump Round Kicks 10s (2 sets/leg)",
+        "noContact": "Free Sparring",
+        "contact": "Free Sparring — readiness check",
+        "itp": "Mix & Review",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "Mix & Review",
+        "detail": "Sweeping Block and Cut complete — combine Mon/Tue + Wed/Thu, ready to layer into combo"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Full Run Mix & Review",
+        "detail": "Moves 1–10"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Reverse Elbow Strike",
+        "detail": "Strike on board, at individual level",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Drill Cue: \"Defense / Counter Attack\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 5,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops — priming quick-reset footwork"
+      },
+      "sparring": {
+        "theme": "Reading the Opponent",
+        "drill": "#1 Round Kick Check & Return #1 Round Kick — solo, trajectory/form",
+        "conditioning": "Ascending Round Kicks 1–10",
+        "noContact": "Statue Free Sparring",
+        "contact": "— (building aptitude)",
+        "itp": "I",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 5 Intro",
+        "detail": "Moves 11–12: R Low Block → L Reverse Punch"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Combo Walk-Through",
+        "technique": "Combo Breaking Challenge",
+        "detail": "Solo — Front Kick → grab → Reverse Elbow Strike",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "I — Individual",
+        "detail": "Block and Cut 11 and X: solo drilling — stance, base trajectory, follow-through, joint position"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 5,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops — priming quick-reset footwork"
+      },
+      "sparring": {
+        "theme": "Reading the Opponent",
+        "drill": "#1 Round Kick Check & Return #1 Round Kick — applied to pad/target",
+        "conditioning": "Ascending Round Kicks 1–10",
+        "noContact": "3-Move Free Sparring",
+        "contact": "—",
+        "itp": "I→T",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "I→P blend",
+        "detail": "Block and Cut 11 and X: partner-based, slow motion"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 5 Refine",
+        "detail": "Clean up mechanics, add speed and precision"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Combo on Pad",
+        "technique": "Combo Breaking Challenge",
+        "detail": "Full flow at speed with target holder",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Drill Cue: \"Reading the Opponent\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 5,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops — priming quick-reset footwork"
+      },
+      "sparring": {
+        "theme": "Reading the Opponent",
+        "drill": "Combine Mon/Tue + Wed/Thu drill work",
+        "conditioning": "Ascending Round Kicks 1–10",
+        "noContact": "Free Sparring (live, no contact)",
+        "contact": "— confirm aptitude before progressing",
+        "itp": "T→P",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Mix & Review",
+        "detail": "Segment 5 combined with Segments 1–4 (moves 1–12)"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Combo on Boards",
+        "technique": "Combo Breaking Challenge",
+        "detail": "Close-proximity stations, self-defense demonstration of power",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "Mix & Review",
+        "detail": "Block and Cut 11 and X: combine Mon/Tue + Wed/Thu work, live but unhurried"
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 6,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops — priming quick-reset footwork"
+      },
+      "sparring": {
+        "theme": "Reading the Opponent",
+        "drill": "#1 Round Kick Check & Return #1 Round Kick — partner-reactive",
+        "conditioning": "Ascending Round Kicks 1–10",
+        "noContact": "Statue→3-Move→Free (review)",
+        "contact": "Free Sparring — light/controlled",
+        "itp": "P intro",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 6 Intro",
+        "detail": "Moves 13–14: R #3 Jump Front Kick → L Reverse Punch"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Combo Walk-Through",
+        "technique": "Combo Breaking Challenge",
+        "detail": "Solo — Front Kick → grab → Reverse Elbow Strike",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "T — Target",
+        "detail": "Block and Cut 11 and X: target work with a partner (linchpin between solo and live)"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Drill Cue: \"Reading the Opponent\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 6,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops — priming quick-reset footwork"
+      },
+      "sparring": {
+        "theme": "Reading the Opponent",
+        "drill": "#1 Round Kick Check & Return #1 Round Kick — live application",
+        "conditioning": "Ascending Round Kicks 1–10",
+        "noContact": "Free Sparring",
+        "contact": "Free Sparring — full application",
+        "itp": "P",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "P — Partner",
+        "detail": "Block and Cut 11 and X: full partner sword drilling"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Segment 6 Refine",
+        "detail": "Full form assembled (moves 1–14)"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Combo on Pad",
+        "technique": "Combo Breaking Challenge",
+        "detail": "Full flow at speed with target holder",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 6,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops — priming quick-reset footwork"
+      },
+      "sparring": {
+        "theme": "Reading the Opponent",
+        "drill": "Full block review, all drills",
+        "conditioning": "Ascending Round Kicks 1–10",
+        "noContact": "Free Sparring",
+        "contact": "Free Sparring — readiness check",
+        "itp": "Mix & Review",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "Mix & Review",
+        "detail": "Block and Cut 11 and X complete — combine Mon/Tue + Wed/Thu, ready to layer into combo"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Full Form Mix & Review",
+        "detail": "Moves 1–14"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Combo on Boards",
+        "technique": "Combo Breaking Challenge",
+        "detail": "Close-proximity stations, self-defense demonstration of power",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 7,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Full-body dynamic flow, blending all three blocks",
+        "activation": "Mixed plyo — matched to whatever's being reviewed"
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "drill": "Individual re-drill — Offense block, correct lingering form issues",
+        "conditioning": "Testing Preparation",
+        "noContact": "Statue→3-Move→Free as needed",
+        "contact": "—",
+        "itp": "Review",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Review",
+        "detail": "Segments 1–3 (moves 1–6)"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Full Review",
+        "technique": "Testing Preparation",
+        "detail": "Combo at current individual board level",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "Review",
+        "detail": "Drill 1 — Horizontal Cut Combo: confirm fundamentals hold under pressure"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Maintain — hold current level"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 7,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Full-body dynamic flow, blending all three blocks",
+        "activation": "Mixed plyo — matched to whatever's being reviewed"
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "drill": "Individual re-drill — Defense/Counter block, correct lingering form issues",
+        "conditioning": "Testing Preparation",
+        "noContact": "Statue→3-Move→Free as needed",
+        "contact": "—",
+        "itp": "Review",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "Review",
+        "detail": "Drill 2 — Sweeping Block and Cut"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Review",
+        "detail": "Segment 4 (moves 7–10)"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Presentation",
+        "technique": "Testing Preparation",
+        "detail": "Bow-in / presentation procedure practice",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Maintain — hold current level"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 7,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Full-body dynamic flow, blending all three blocks",
+        "activation": "Mixed plyo — matched to whatever's being reviewed"
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "drill": "Individual re-drill — Reading Opponent block, correct lingering form issues",
+        "conditioning": "Testing Preparation",
+        "noContact": "Statue→3-Move→Free as needed",
+        "contact": "—",
+        "itp": "Review",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Review",
+        "detail": "Segments 5–6 (moves 11–14); full run-throughs"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Dress Rehearsal",
+        "technique": "Testing Preparation",
+        "detail": "Mock testing",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "Review",
+        "detail": "Drill 3 — Block and Cut 11 and X; full run-throughs"
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "Maintain — hold current level"
+      },
+      "cue": "Drill Cue: \"Review / Testing Preparation\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 8,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Full-body dynamic flow, blending all three blocks",
+        "activation": "Mixed plyo — matched to whatever's being reviewed"
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "drill": "Full No-Contact progression across all 3 themes",
+        "conditioning": "Testing Preparation",
+        "noContact": "Statue→3-Move→Free",
+        "contact": "—",
+        "itp": "Partner Review",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Forms — Songahm 3",
+        "stage": "Full Run-Through",
+        "detail": "Moves 1–14 assembled; flag weak points"
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Full Review",
+        "technique": "Testing Preparation",
+        "detail": "Combo at current individual board level",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "seg5": {
+        "label": "Weapon — Gumdo",
+        "stage": "Full Run-Through",
+        "detail": "All 3 drills back-to-back; flag weak points"
+      },
+      "dailyChallenge": {
+        "move": "Push-Ups",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if chest touches floor",
+        "phase": "Light day — no max-effort test (taper before retest)"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?",
+      "primaryFocus": "Forms"
+    },
+    {
+      "week": 8,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Full-body dynamic flow, blending all three blocks",
+        "activation": "Mixed plyo — matched to whatever's being reviewed"
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "drill": "Full Contact Sparring across all 3 themes",
+        "conditioning": "Testing Preparation",
+        "noContact": "—",
+        "contact": "Free Sparring — live application",
+        "itp": "Partner Review",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "Polish",
+        "detail": "Targeted polish on flagged weak points"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Polish",
+        "detail": "Targeted polish on flagged weak points"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Presentation",
+        "technique": "Testing Preparation",
+        "detail": "Bow-in / presentation procedure practice",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Arm Plank Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Hips stay level, no sag/pike",
+        "phase": "Light day — no max-effort test (taper before retest)"
+      },
+      "cue": "Drill Cue: \"Review / Testing Preparation\" — stay tall, hands up, breathe between reps.",
+      "primaryFocus": "Weapon"
+    },
+    {
+      "week": 8,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus — name today's goal out loud",
+        "mobility": "Full-body dynamic flow, blending all three blocks",
+        "activation": "Mixed plyo — matched to whatever's being reviewed"
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "drill": "Mock testing / dress rehearsal — sparring segment exactly as at testing",
+        "conditioning": "Testing Preparation",
+        "noContact": "—",
+        "contact": "Free Sparring — dress rehearsal",
+        "itp": "Testing Ready",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Weapon — Gumdo",
+        "stage": "Testing Ready",
+        "detail": "Mock testing / dress rehearsal — confirm testing-ready"
+      },
+      "seg4": {
+        "label": "Forms — Songahm 3",
+        "stage": "Testing Ready",
+        "detail": "Mock testing / dress rehearsal"
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Dress Rehearsal",
+        "technique": "Testing Preparation",
+        "detail": "Mock testing",
+        "note": "Board level is individualized — student's own size/ability. Level up only after 3 consecutive first-try breaks; any miss = stay at current board."
+      },
+      "dailyChallenge": {
+        "move": "Bodyweight Squats",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only if hip crease drops below knee",
+        "phase": "RETEST — compare to Week 1–2 baseline"
+      },
+      "cue": "Coach's Note: Board level is individual — celebrate the student who levels up as much as the one who lands a perfect first-try break.",
+      "primaryFocus": "Weapon"
+    }
+  ]
+}
