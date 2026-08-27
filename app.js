@@ -115,27 +115,42 @@ function initAdvancedCycle(data) {
   function renderContent() {
     const cls = data.ALL_CLASSES.find(x => x.week === currentWeek && x.cls === currentClass);
     if (!cls) { document.getElementById('classContent').innerHTML = '<div class="error">No class found.</div>'; return; }
-    const primaryLabel = cls.primaryFocus === 'Forms' ? (cls.seg3 && cls.seg3.label ? cls.seg3.label.split('—').pop().trim() : 'Forms') : cls.primaryFocus;
+
+    // Belt levels vary in which fields they track (e.g. Beginner tracks footwork
+    // under warm-up instead of sparring, and uses heavyFocus instead of primaryFocus).
+    // Build each line list from whatever fields are actually present rather than
+    // assuming a fixed shape, so one template covers every cycle.
+    const focusField = cls.primaryFocus || cls.heavyFocus || '';
+    const primaryLabel = focusField === 'Forms' ? (cls.seg3 && cls.seg3.label ? cls.seg3.label.split('—').pop().trim() : 'Forms') : focusField;
+
+    function line(label, value) {
+      return (value !== undefined && value !== null && value !== '') ? label + ': ' + value : null;
+    }
 
     const warmupLines = [
-      'Mindset: ' + cls.warmup.mindset,
-      'Mobility: ' + cls.warmup.mobility,
-      'Activation: ' + cls.warmup.activation,
-    ];
+      line('Mindset', cls.warmup.mindset),
+      line('Mobility', cls.warmup.mobility),
+      line('Activation', cls.warmup.activation),
+      line('Footwork', cls.warmup.footwork),
+    ].filter(Boolean);
+
     const sparringLines = [
-      'Theme: ' + cls.sparring.theme + ' (ITP: ' + cls.sparring.itp + ')',
-      'Footwork: ' + cls.sparring.footwork,
-      'Drill: ' + cls.sparring.drill,
-      'Conditioning: ' + cls.sparring.conditioning,
-      'Situational: ' + cls.sparring.situational,
-      'No-Contact: ' + cls.sparring.noContact,
-      'Contact: ' + cls.sparring.contact,
-    ];
+      line('Theme', cls.sparring.theme + (cls.sparring.itp ? ' (ITP: ' + cls.sparring.itp + ')' : '')),
+      line('Footwork', cls.sparring.footwork),
+      line('Drill', cls.sparring.drill),
+      line('Conditioning', cls.sparring.conditioning),
+      line('Situational', cls.sparring.situational),
+      line('No-Contact', cls.sparring.noContact),
+      line('Contact', cls.sparring.contact),
+    ].filter(Boolean);
+
     const dcLines = [
-      cls.dailyChallenge.move + ' — ' + cls.dailyChallenge.format,
-      'Standard: ' + cls.dailyChallenge.standard,
+      (cls.dailyChallenge.move || '') + (cls.dailyChallenge.format ? ' — ' + cls.dailyChallenge.format : ''),
+      line('Standard', cls.dailyChallenge.standard),
       cls.dailyChallenge.phase,
-    ];
+    ].filter(Boolean);
+
+    const waterBreakText = cls.waterBreak || '2 MIN — equipment change';
 
     function segBox(seg, time, primary) {
       return '<div class="section-box' + (primary ? ' primary' : '') + '">' +
@@ -151,7 +166,7 @@ function initAdvancedCycle(data) {
         '<div class="col">' +
           '<div class="section-box"><div class="label">WARM-UP</div>' + ul(warmupLines) + '<div class="time">7 MIN</div></div>' +
           '<div class="section-box"><div class="label">SPARRING</div>' + ul(sparringLines) + '<div class="time">7 MIN</div></div>' +
-          '<div class="water-break"><span class="label">\uD83D\uDCA7 WATER BREAK</span><span class="time">2 MIN — equipment change</span></div>' +
+          '<div class="water-break"><span class="label">\uD83D\uDCA7 WATER BREAK</span><span class="time">' + waterBreakText + '</span></div>' +
         '</div>' +
         '<div class="col">' +
           segBox(cls.seg3, '10 MIN', true) +
