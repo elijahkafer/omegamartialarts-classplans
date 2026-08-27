@@ -7,6 +7,30 @@
 let MANIFEST = [];
 let CURRENT_DATA = null;
 
+// Accent color follows the belt-rank / form system, not a fixed per-file color.
+// Colors match the traditional rank association for each Songahm curriculum form.
+// NOTE: "Songahm 1" below is a best guess for the form name heard as "Songahm Won"
+// in the source recording — flag this if it should read differently.
+const FORM_COLORS = {
+  'Songahm White': '#C7CBD1',
+  'Songahm 1':      '#C7CBD1',
+  'Songahm 2':      '#E8821A',
+  'Songahm 3':      '#E8C619',
+  'Songahm 4':      '#8A9A73',
+  'Songahm 5':      '#3C8C4A',
+  'In Wha 1':       '#7A4FA0',
+  'In Wha 2':       '#3E6FE4',
+  'Choong Jung 1':  '#8B5A2B',
+  'Choong Jung 2':  '#C21E2B',
+};
+const DEFAULT_ACCENT = '#E4572E';
+
+function formAccentFromSubtitle(subtitle) {
+  if (!subtitle) return DEFAULT_ACCENT;
+  const formName = subtitle.split('•')[0].trim();
+  return FORM_COLORS[formName] || DEFAULT_ACCENT;
+}
+
 // ---------- boot ----------
 async function boot() {
   document.documentElement.dataset.theme = 'dark';
@@ -20,26 +44,82 @@ async function boot() {
       'fetch() for local files opened directly.</div>';
     return;
   }
-  renderPicker();
-  await loadCurriculum(MANIFEST[0].file);
+  renderCyclePicker();
 }
 
-function renderPicker() {
-  const picker = document.getElementById('curriculumPicker');
+// Builds the top-level "which time period" dropdown: each monthly cycle, plus any
+// standalone year-round tracks (like Ascend) appended at the end. Defaults to
+// whichever cycle contains today's date, so the app opens to the current curriculum
+// automatically without the coach having to pick it each time.
+function renderCyclePicker() {
+  const picker = document.getElementById('cyclePicker');
   picker.innerHTML = '';
-  MANIFEST.forEach(entry => {
+
+  const cycles = MANIFEST.cycles || [];
+  const standalone = MANIFEST.standalone || [];
+
+  cycles.forEach(c => {
     const opt = document.createElement('option');
-    opt.value = entry.file;
-    opt.textContent = entry.label;
+    opt.value = 'cycle:' + c.key;
+    opt.textContent = c.label;
     picker.appendChild(opt);
   });
-  picker.onchange = () => loadCurriculum(picker.value);
+  standalone.forEach((s, i) => {
+    const opt = document.createElement('option');
+    opt.value = 'standalone:' + i;
+    opt.textContent = s.label;
+    picker.appendChild(opt);
+  });
+
+  const today = new Date();
+  let defaultValue = null;
+  for (const c of cycles) {
+    const start = new Date(c.startDate);
+    const end = new Date(c.endDate);
+    if (today >= start && today <= end) { defaultValue = 'cycle:' + c.key; break; }
+  }
+  if (!defaultValue) {
+    // No cycle contains today (e.g. between cycles, or none scheduled yet) —
+    // fall back to whichever cycle hasn't ended yet, otherwise the most recent one.
+    const upcoming = cycles.find(c => today <= new Date(c.endDate));
+    defaultValue = upcoming ? 'cycle:' + upcoming.key : (cycles.length ? 'cycle:' + cycles[cycles.length - 1].key : (standalone.length ? 'standalone:0' : null));
+  }
+  if (defaultValue) picker.value = defaultValue;
+
+  picker.onchange = () => renderPlanPicker(picker.value);
+  renderPlanPicker(picker.value);
+}
+
+function renderPlanPicker(cycleValue) {
+  const planPicker = document.getElementById('planPicker');
+  planPicker.innerHTML = '';
+
+  let plans = [];
+  if (cycleValue && cycleValue.startsWith('cycle:')) {
+    const key = cycleValue.slice('cycle:'.length);
+    const cycle = (MANIFEST.cycles || []).find(c => c.key === key);
+    plans = cycle ? cycle.plans : [];
+  } else if (cycleValue && cycleValue.startsWith('standalone:')) {
+    const idx = parseInt(cycleValue.slice('standalone:'.length), 10);
+    const s = (MANIFEST.standalone || [])[idx];
+    plans = s ? [s] : [];
+  }
+
+  plans.forEach(p => {
+    const opt = document.createElement('option');
+    opt.value = p.file;
+    opt.textContent = p.label;
+    planPicker.appendChild(opt);
+  });
+
+  planPicker.onchange = () => loadCurriculum(planPicker.value);
+  if (plans.length) loadCurriculum(plans[0].file);
 }
 
 async function loadCurriculum(file) {
   const res = await fetch('plans/' + file + '?v=' + Date.now(), { cache: 'no-store' });
   CURRENT_DATA = await res.json();
-  document.documentElement.style.setProperty('--accent', CURRENT_DATA._accent || '#E4572E');
+  document.documentElement.style.setProperty('--accent', CURRENT_DATA._accent || formAccentFromSubtitle(CURRENT_DATA.CYCLE_SUBTITLE));
   document.documentElement.style.setProperty('--accent2', CURRENT_DATA._accent2 || '#3E8E7E');
   document.getElementById('cycleTitle').textContent = CURRENT_DATA._appTitle || '';
 
@@ -59,6 +139,80 @@ function toggleTheme() {
 
 function ul(lines) {
   return '<ul>' + lines.map(l => '<li>' + l + '</li>').join('') + '</ul>';
+}
+
+function ul_slide(lines) {
+  return '<ul class="slide-list">' + lines.map(l => '<li>' + l + '</li>').join('') + '</ul>';
+}
+
+/* =========================================================
+   SLIDE DECK ENGINE — shared by both templates.
+   slides: array of { className, html }. footerHtml: persistent note strip
+   shown under every slide (the coach's cue), not part of the deck itself.
+   ========================================================= */
+let _slideDeckKeyHandler = null;
+
+function renderSlideDeck(container, slides, footerHtml) {
+  let idx = 0;
+
+  container.innerHTML =
+    '<div class="slidedeck">' +
+      '<div class="slide-viewport"><div class="slide-track">' +
+        slides.map(s => '<div class="slide ' + (s.className || '') + '">' + s.html + '</div>').join('') +
+      '</div></div>' +
+      '<div class="slide-nav-row">' +
+        '<button class="slide-nav-btn" id="slidePrev">\u2039</button>' +
+        '<div class="slide-dots" id="slideDots"></div>' +
+        '<button class="slide-nav-btn" id="slideNext">\u203a</button>' +
+      '</div>' +
+      (footerHtml ? '<div class="slide-footer">' + footerHtml + '</div>' : '') +
+    '</div>';
+
+  const track = container.querySelector('.slide-track');
+  const dotsWrap = container.querySelector('#slideDots');
+  const prevBtn = container.querySelector('#slidePrev');
+  const nextBtn = container.querySelector('#slideNext');
+  const viewport = container.querySelector('.slide-viewport');
+
+  slides.forEach((_, i) => {
+    const dot = document.createElement('button');
+    dot.className = 'dot';
+    dot.onclick = () => { idx = i; update(); };
+    dotsWrap.appendChild(dot);
+  });
+
+  function update() {
+    track.style.transform = 'translateX(-' + (idx * 100) + '%)';
+    prevBtn.disabled = idx === 0;
+    nextBtn.disabled = idx === slides.length - 1;
+    Array.from(dotsWrap.children).forEach((d, i) => d.classList.toggle('active', i === idx));
+  }
+
+  prevBtn.onclick = () => { if (idx > 0) { idx--; update(); } };
+  nextBtn.onclick = () => { if (idx < slides.length - 1) { idx++; update(); } };
+
+  // Swipe support for tablets
+  let touchStartX = null;
+  viewport.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; }, { passive: true });
+  viewport.addEventListener('touchend', e => {
+    if (touchStartX === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    if (Math.abs(dx) > 45) {
+      if (dx < 0 && idx < slides.length - 1) { idx++; update(); }
+      else if (dx > 0 && idx > 0) { idx--; update(); }
+    }
+    touchStartX = null;
+  }, { passive: true });
+
+  // Keyboard arrows — replace any previous deck's handler so old closures don't linger
+  if (_slideDeckKeyHandler) document.removeEventListener('keydown', _slideDeckKeyHandler);
+  _slideDeckKeyHandler = (e) => {
+    if (e.key === 'ArrowRight') nextBtn.onclick();
+    if (e.key === 'ArrowLeft') prevBtn.onclick();
+  };
+  document.addEventListener('keydown', _slideDeckKeyHandler);
+
+  update();
 }
 
 /* =========================================================
@@ -152,35 +306,63 @@ function initAdvancedCycle(data) {
 
     const waterBreakText = cls.waterBreak || '2 MIN — equipment change';
 
-    function segBox(seg, time, primary) {
-      return '<div class="section-box' + (primary ? ' primary' : '') + '">' +
-        '<div class="label">' + seg.label.toUpperCase() + (primary ? ' (PRIMARY FOCUS)' : '') + '</div>' +
-        ul(segLines(seg)) +
-        '<div class="time">' + time + '</div></div>';
+    // Build the tap/swipe-through slide sequence: one overview slide, then one
+    // slide per section, so an instructor mid-class can glance and tab forward
+    // without hunting through a dense page.
+    const slides = [];
+
+    slides.push({
+      className: 'slide-overview',
+      html:
+        '<div class="slide-kicker">Overview</div>' +
+        '<div class="slide-title">' + cls.dayLabel + '</div>' +
+        '<div class="slide-time">45 MIN &bull; PRIMARY FOCUS: ' + primaryLabel + '</div>' +
+        '<ul class="toc">' +
+          '<li><span class="n">1</span> Warm-Up</li>' +
+          '<li><span class="n">2</span> Sparring</li>' +
+          '<li><span class="n">3</span> ' + cls.seg3.label + ' (Primary Focus)</li>' +
+          '<li><span class="n">4</span> ' + cls.seg4.label + '</li>' +
+          '<li><span class="n">5</span> ' + cls.seg5.label + '</li>' +
+          '<li><span class="n">6</span> Water Break</li>' +
+          '<li><span class="n">7</span> Daily Challenge + Announcements</li>' +
+        '</ul>'
+    });
+
+    slides.push({
+      html: '<div class="slide-kicker">Section 1 of 5</div><div class="slide-title">Warm-Up</div>' +
+        '<div class="slide-time">7 MIN</div>' + ul_slide(warmupLines)
+    });
+
+    slides.push({
+      html: '<div class="slide-kicker">Section 2 of 5</div><div class="slide-title">Sparring</div>' +
+        '<div class="slide-time">7 MIN</div>' + ul_slide(sparringLines)
+    });
+
+    function segSlide(seg, sectionNum, time, primary) {
+      return {
+        html: '<div class="slide-kicker">Section ' + sectionNum + ' of 5' + (primary ? ' &bull; Primary Focus' : '') + '</div>' +
+          '<div class="slide-title">' + seg.label + '</div>' +
+          '<div class="slide-time">' + time + '</div>' +
+          ul_slide(segLines(seg))
+      };
     }
+    slides.push(segSlide(cls.seg3, 3, '10 MIN', true));
+    slides.push(segSlide(cls.seg4, 4, '7 MIN', false));
+    slides.push(segSlide(cls.seg5, 5, '7 MIN', false));
 
-    const html =
-      '<div class="day-label">' + cls.dayLabel + '</div>' +
-      '<div class="meta-line">45 MIN &bull; PRIMARY FOCUS: <b>' + primaryLabel + '</b></div>' +
-      '<div class="grid">' +
-        '<div class="col">' +
-          '<div class="section-box"><div class="label">WARM-UP</div>' + ul(warmupLines) + '<div class="time">7 MIN</div></div>' +
-          '<div class="section-box"><div class="label">SPARRING</div>' + ul(sparringLines) + '<div class="time">7 MIN</div></div>' +
-          '<div class="water-break"><span class="label">\uD83D\uDCA7 WATER BREAK</span><span class="time">' + waterBreakText + '</span></div>' +
-        '</div>' +
-        '<div class="col">' +
-          segBox(cls.seg3, '10 MIN', true) +
-          segBox(cls.seg4, '7 MIN', false) +
-          segBox(cls.seg5, '7 MIN', false) +
-        '</div>' +
-        '<div class="band">' +
-          '<div><div class="label">DAILY CHALLENGE +<br>FLEX/ANNOUNCEMENTS</div><div class="time">3 + 5 MIN</div></div>' +
-          ul(dcLines) +
-        '</div>' +
-        '<div class="cue-box">' + cls.cue + '</div>' +
-      '</div>';
+    slides.push({
+      className: 'slide-waterbreak',
+      html: '<div class="wb-icon">\uD83D\uDCA7</div><div class="slide-title">Water Break</div><div class="slide-time">' + waterBreakText + '</div>'
+    });
 
-    document.getElementById('classContent').innerHTML = html;
+    slides.push({
+      html: '<div class="slide-kicker">Daily Challenge + Announcements</div>' +
+        '<div class="slide-title">' + (cls.dailyChallenge.move || 'Daily Challenge') + '</div>' +
+        '<div class="slide-time">3 + 5 MIN</div>' + ul_slide(dcLines)
+    });
+
+    const cueText = cls.cue.replace(/^Coach's Note:\s*/i, '');
+    renderSlideDeck(document.getElementById('classContent'), slides, '<b>Coach\u2019s Note:</b> ' + cueText);
   }
 
   function render() {
@@ -273,29 +455,41 @@ function initAscendFullYear(data) {
     const week = c.weeks[currentWeekIdx];
     const day = week.days[currentDayIdx];
 
-    let blocksHtml = '<div class="blocks">';
-    day.blocks.forEach((b, i) => {
-      blocksHtml += '<div class="section-box">' +
-        '<div class="num">' + (i + 1) + '</div>' +
-        '<div class="content">' +
-          '<div class="label">' + b.label.toUpperCase() + ' <span class="time">(' + b.minutes + ' MIN)</span></div>' +
-          '<div class="body">' + b.body + '</div>' +
-        '</div></div>';
+    // Same slide-deck pattern as the belt-rank cycles: overview slide, then one
+    // slide per block, with the coach's note pinned as a persistent footer.
+    const dayTitle = 'Week ' + (currentWeekIdx + 1) + ' \u00b7 ' + day.dayLabel.replace('DAY ', 'Day ');
+    const slides = [];
+
+    slides.push({
+      className: 'slide-overview',
+      html:
+        '<div class="slide-kicker">Overview</div>' +
+        '<div class="slide-title">' + dayTitle + '</div>' +
+        '<div class="slide-time">' + day.dayType + ' \u2014 ' + day.duration + ' \u2022 ' + day.elementTag + ' \u2022 \u201c' + day.playName + '\u201d</div>' +
+        '<ul class="toc">' +
+          day.blocks.map((b, i) => '<li><span class="n">' + (i + 1) + '</span> ' + b.label + '</li>').join('') +
+          '<li><span class="n">' + (day.blocks.length + 1) + '</span> Drill Cue</li>' +
+          '<li><span class="n">' + (day.blocks.length + 2) + '</span> Fight IQ Question</li>' +
+        '</ul>'
     });
-    blocksHtml += '</div>';
 
-    const cueHtml = '<div class="cue-grid">' +
-      '<div class="cue-cell"><div class="label">DRILL CUE</div><div class="text">' + day.cue.drillCue + '</div></div>' +
-      '<div class="cue-cell"><div class="label">COACH\'S NOTE</div><div class="text">' + day.cue.coachNote + '</div></div>' +
-      '<div class="cue-cell"><div class="label">FIGHT IQ Q</div><div class="text">' + day.cue.fightIqQ + '</div></div>' +
-      '</div>';
+    day.blocks.forEach((b, i) => {
+      slides.push({
+        html: '<div class="slide-kicker">Block ' + (i + 1) + ' of ' + day.blocks.length + '</div>' +
+          '<div class="slide-title">' + b.label + '</div>' +
+          '<div class="slide-time">' + b.minutes + ' MIN</div>' +
+          '<p class="slide-body">' + b.body + '</p>'
+      });
+    });
 
-    const html =
-      '<div class="day-label">Week ' + (currentWeekIdx + 1) + ' &middot; ' + day.dayLabel.replace('DAY ', 'Day ') + '</div>' +
-      '<div class="meta-line"><b>' + day.dayType + ' — ' + day.duration + '</b> &bull; ' + day.elementTag + ' &bull; <span class="play">&ldquo;' + day.playName + '&rdquo;</span></div>' +
-      blocksHtml + cueHtml;
+    slides.push({
+      html: '<div class="slide-kicker">Drill Cue</div><div class="slide-title">On the Whistle</div><p class="slide-body">' + day.cue.drillCue + '</p>'
+    });
+    slides.push({
+      html: '<div class="slide-kicker">Fight IQ Question</div><div class="slide-title">Ask the Class</div><p class="slide-body">' + day.cue.fightIqQ + '</p>'
+    });
 
-    document.getElementById('dayContent').innerHTML = html;
+    renderSlideDeck(document.getElementById('dayContent'), slides, '<b>Coach\u2019s Note:</b> ' + day.cue.coachNote);
   }
 
   function render() {

@@ -2,8 +2,19 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
 <title>OMA Curriculum Delivery</title>
+
+<!-- Kiosk / home-screen app behavior: launches full-screen with no browser chrome
+     when added to the home screen on a tablet, instead of opening as a regular tab. -->
+<link rel="manifest" href="app.webmanifest">
+<meta name="theme-color" content="#14181F">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="OMA Curriculum">
+<link rel="apple-touch-icon" href="icon-192.png">
+
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,8 +25,9 @@
         <div class="eyebrow">OMEGA MARTIAL ARTS</div>
         <h1 id="cycleTitle">Curriculum Delivery</h1>
       </div>
-      <div style="display:flex; gap:8px; align-items:center;">
-        <select class="curriculum-picker" id="curriculumPicker"></select>
+      <div style="display:flex; gap:8px; align-items:center; flex-wrap: wrap;">
+        <select class="curriculum-picker" id="cyclePicker"></select>
+        <select class="curriculum-picker" id="planPicker"></select>
         <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
       </div>
     </div>
