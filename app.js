@@ -1,7 +1,7 @@
 /* OMA Curriculum App — shared shell
    Loads a manifest of curriculum JSON files, lets the coach switch between them,
    and renders using the correct template based on each file's "_type" field.
-   Add a new curriculum: drop a new JSON file in /data and add one line to manifest.json.
+   Add a new curriculum: drop a new JSON file in /plans and add one line to manifest.json.
 */
 
 let MANIFEST = [];
@@ -11,11 +11,11 @@ let CURRENT_DATA = null;
 async function boot() {
   document.documentElement.dataset.theme = 'dark';
   try {
-    const res = await fetch('data/manifest.json?v=' + Date.now(), { cache: 'no-store' });
+    const res = await fetch('plans/manifest.json?v=' + Date.now(), { cache: 'no-store' });
     MANIFEST = await res.json();
   } catch (e) {
     document.getElementById('app').innerHTML =
-      '<div class="error">Could not load data/manifest.json. If you opened this file directly (file://), ' +
+      '<div class="error">Could not load plans/manifest.json. If you opened this file directly (file://), ' +
       'serve the folder with a local web server instead (e.g. <code>python3 -m http.server</code>) — browsers block ' +
       'fetch() for local files opened directly.</div>';
     return;
@@ -37,7 +37,7 @@ function renderPicker() {
 }
 
 async function loadCurriculum(file) {
-  const res = await fetch('data/' + file + '?v=' + Date.now(), { cache: 'no-store' });
+  const res = await fetch('plans/' + file + '?v=' + Date.now(), { cache: 'no-store' });
   CURRENT_DATA = await res.json();
   document.documentElement.style.setProperty('--accent', CURRENT_DATA._accent || '#E4572E');
   document.documentElement.style.setProperty('--accent2', CURRENT_DATA._accent2 || '#3E8E7E');
