@@ -30,7 +30,7 @@
         "theme": "Speed Conditioning",
         "itp": "I",
         "conditioning": "High-low round kicks, 20 sec each leg. Record your count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "4-Count Cross, 4-Count Switch"
       },
       "seg3": {
@@ -73,7 +73,7 @@
         "theme": "Speed Conditioning",
         "itp": "I→T",
         "conditioning": "High-low round kicks, 20 sec each leg. Record your count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "4-Count Cross, 4-Count Switch"
       },
       "seg3": {
@@ -116,7 +116,7 @@
         "theme": "Speed Conditioning",
         "itp": "T→P",
         "conditioning": "High-low round kicks, 20 sec each leg. Beat your count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "4-Count Cross, 4-Count Switch"
       },
       "seg3": {
@@ -159,7 +159,7 @@
         "theme": "Speed Conditioning",
         "itp": "T→P",
         "conditioning": "High-low round kicks, 45 sec each leg. Record your count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "4-Count Cross, 4-Count Switch"
       },
       "seg3": {
@@ -185,7 +185,7 @@
         "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
         "phase": "Baseline test: establish your own starting number"
       },
-      "cue": "Drill Cue: \"Reaction\": eyes on the pad, kick the instant it pops."
+      "cue": "Drill Cue: \"Speed Under Fatigue\": keep technique clean as the clock runs."
     },
     {
       "week": 2,
@@ -202,7 +202,7 @@
         "theme": "Speed Conditioning",
         "itp": "P",
         "conditioning": "High-low round kicks, 45 sec each leg.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "4-Count Cross, 4-Count Switch"
       },
       "seg3": {
@@ -245,7 +245,7 @@
         "theme": "Speed Conditioning",
         "itp": "Mix & Review",
         "conditioning": "Retest 20 sec, then 45 sec. Compare with week 1.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "4-Count Cross, 4-Count Switch"
       },
       "seg3": {
@@ -288,7 +288,7 @@
         "theme": "Defense / Counter",
         "itp": "I",
         "conditioning": "Switch front kicks, 45 sec each leg. Record your count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "Horizontal Line Movement"
       },
       "seg3": {
@@ -331,7 +331,7 @@
         "theme": "Defense / Counter",
         "itp": "I→T",
         "conditioning": "Switch front kicks, 45 sec each leg.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "Horizontal Line Movement"
       },
       "seg3": {
@@ -374,7 +374,7 @@
         "theme": "Defense / Counter",
         "itp": "T→P",
         "conditioning": "Switch front kicks, 45 sec each leg. Beat your count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "Horizontal Line Movement"
       },
       "seg3": {
@@ -529,7 +529,7 @@
         "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
         "phase": "Beat your own baseline"
       },
-      "cue": "Drill Cue: \"Distance\": maintain space with the side kick, never let the zombie close."
+      "cue": "Drill Cue: \"Distance\": control the range, keep your space."
     },
     {
       "week": 5,
@@ -546,7 +546,7 @@
         "theme": "Speed Conditioning",
         "itp": "I",
         "conditioning": "High-low round kicks: retest the weeks 1-2 count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
       },
       "seg3": {
@@ -589,7 +589,7 @@
         "theme": "Speed Conditioning",
         "itp": "I→T",
         "conditioning": "High-low round kicks, 45 sec each leg.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
       },
       "seg3": {
@@ -615,7 +615,7 @@
         "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
         "phase": "Beat your own baseline (bigger target)"
       },
-      "cue": "Drill Cue: \"Reading the Opponent\": watch the pad, pick the weapon."
+      "cue": "Drill Cue: \"Read First\": watch the hips and hands, then pick the weapon."
     },
     {
       "week": 5,
@@ -632,7 +632,7 @@
         "theme": "Speed Conditioning",
         "itp": "T→P",
         "conditioning": "High-low round kicks, compare with weeks 1-2.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
       },
       "seg3": {
@@ -675,7 +675,7 @@
         "theme": "Speed Conditioning",
         "itp": "T→P",
         "conditioning": "Switch front kicks: retest the week 3 count.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
       },
       "seg3": {
@@ -718,7 +718,7 @@
         "theme": "Speed Conditioning",
         "itp": "P",
         "conditioning": "Switch front kicks, 45 sec each leg.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
       },
       "seg3": {
@@ -761,7 +761,7 @@
         "theme": "Speed Conditioning",
         "itp": "Mix & Review",
         "conditioning": "Both conditioning drills back to back, compare with earlier counts.",
-        "noContact": "Free sparring, continuous rather than point based.",
+        "noContact": "Continuous rather than point based.",
         "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
       },
       "seg3": {
