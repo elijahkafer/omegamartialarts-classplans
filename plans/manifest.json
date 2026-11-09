@@ -4,15 +4,47 @@
       "key": "sept-oct-2026",
       "label": "September / October 2026",
       "startDate": "2026-09-01",
-      "endDate": "2026-10-31",
+      "endDate": "2026-10-25",
       "plans": [
-        { "file": "beginner-sept-oct-2026.json", "label": "Beginner" },
-        { "file": "intermediate-sept-oct-2026.json", "label": "Intermediate" },
-        { "file": "advanced-sept-oct-2026.json", "label": "Advanced Color Belt" }
+        {
+          "file": "beginner-sept-oct-2026.json",
+          "label": "Beginner"
+        },
+        {
+          "file": "intermediate-sept-oct-2026.json",
+          "label": "Intermediate"
+        },
+        {
+          "file": "advanced-sept-oct-2026.json",
+          "label": "Advanced Color Belt"
+        }
+      ]
+    },
+    {
+      "key": "nov-dec-2026",
+      "label": "November / December 2026",
+      "startDate": "2026-10-26",
+      "endDate": "2026-12-19",
+      "plans": [
+        {
+          "file": "beginner-nov-dec-2026.json",
+          "label": "Beginner"
+        },
+        {
+          "file": "intermediate-nov-dec-2026.json",
+          "label": "Intermediate"
+        },
+        {
+          "file": "advanced-nov-dec-2026.json",
+          "label": "Advanced Color Belt"
+        }
       ]
     }
   ],
   "standalone": [
-    { "file": "ascend-full-year.json", "label": "Ascend Sparring Theory — Full Year" }
+    {
+      "file": "ascend-full-year.json",
+      "label": "Ascend Sparring Theory \u2014 Full Year"
+    }
   ]
 }

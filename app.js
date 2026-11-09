@@ -230,6 +230,7 @@ function initAdvancedCycle(data) {
   document.getElementById('advSubtitle').textContent = data.CYCLE_SUBTITLE || '';
 
   const WEEK_THEME = {}; // could be data-driven later; left empty by default
+  const WEEK_DATES = data.WEEK_DATES || [];
   let currentWeek = 1;
   let currentClass = 'A';
   const totalWeeks = Math.max(...data.ALL_CLASSES.map(c => c.week));
@@ -245,7 +246,8 @@ function initAdvancedCycle(data) {
     nav.innerHTML = '';
     for (let w = 1; w <= totalWeeks; w++) {
       const btn = document.createElement('button');
-      btn.innerHTML = 'Week ' + w + (WEEK_THEME[w] ? '<span class="theme-sub">' + WEEK_THEME[w] + '</span>' : '');
+      const sub = WEEK_THEME[w] || WEEK_DATES[w - 1] || '';
+      btn.innerHTML = 'Week ' + w + (sub ? '<span class="theme-sub">' + sub + '</span>' : '');
       if (w === currentWeek) btn.classList.add('active');
       btn.onclick = () => { currentWeek = w; render(); };
       nav.appendChild(btn);
@@ -286,6 +288,7 @@ function initAdvancedCycle(data) {
       line('Mobility', cls.warmup.mobility),
       line('Activation', cls.warmup.activation),
       line('Footwork', cls.warmup.footwork),
+      line('Stance Thread', cls.warmup.stance),
     ].filter(Boolean);
 
     const sparringLines = [
@@ -293,6 +296,7 @@ function initAdvancedCycle(data) {
       line('Footwork', cls.sparring.footwork),
       line('Drill', cls.sparring.drill),
       line('Conditioning', cls.sparring.conditioning),
+      line('Game', cls.sparring.game),
       line('Situational', cls.sparring.situational),
       line('No-Contact', cls.sparring.noContact),
       line('Contact', cls.sparring.contact),

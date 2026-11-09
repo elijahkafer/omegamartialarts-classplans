@@ -1,0 +1,1051 @@
+{
+  "_type": "advanced-cycle",
+  "_appTitle": "Intermediate Cycle",
+  "_accent2": "#3E8E7E",
+  "CYCLE_TITLE": "Intermediate Cycle — November/December 2026",
+  "CYCLE_SUBTITLE": "In Wha 1  •  Self-Defense  •  Board Break  •  Speed Sparring",
+  "WEEK_DATES": [
+    "Oct 26",
+    "Nov 2",
+    "Nov 9",
+    "Nov 16",
+    "Nov 23",
+    "Nov 30",
+    "Dec 7",
+    "Dec 14"
+  ],
+  "ALL_CLASSES": [
+    {
+      "week": 1,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Kneel-to-stand hip drive reps, then pogo hops (priming the front kick)",
+        "stance": "Weighted low lunge hold, 1 minute: tall posture, knees hover an inch or less off the floor. Go straight into form stances."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "I",
+        "conditioning": "High-low round kicks, 20 sec each leg. Record your count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 5 Intro, Part 1",
+        "detail": "Move 19: R Square Block after the 270 degree clockwise spin. The same spin returns at move 32. Teach the square block, then the spin, then put them together. Individual practice. Group 2 (new to In Wha 1, moves 1-18): speed on kick pairs 7–8 and 16–17."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Individual",
+        "technique": "Front Kick Balance",
+        "detail": "Front kick the target, hold the knee up for a count of 1001 before stepping down.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "I: Feel the position",
+        "detail": "Shadow Monster in pairs, 60-second turns. The shadow body-locks or bear-hugs. Defender scores 1 for turning and squaring up with arms up, 1 for breaking the arms and escaping. Shadow scores when the defender loses balance and a hand or knee touches the floor. No technique is taught yet. Match partners by size and strength."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Baseline test: establish your own starting number"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    },
+    {
+      "week": 1,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Kneel-to-stand hip drive reps, then pogo hops (priming the front kick)",
+        "stance": "Weighted low lunge hold, 1 minute: tall posture, knees hover an inch or less off the floor. Go straight into form stances."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "I→T",
+        "conditioning": "High-low round kicks, 20 sec each leg. Record your count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "T: Play against resistance",
+        "detail": "Same game, partners trade every 60 seconds and count their points. Both roles matter: shadows learn a clean lock, defenders start finding openings on their own."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 5 Intro, Part 2",
+        "detail": "Moves 20–21: L #2 Front Kick to the front → continuous L Side Kick to the side. Solo, one hand on a target or column at 45 degrees for support. Keep the knee chambered at height and balance between kicks. Group 2 (new to In Wha 1, moves 1-18): elbow strikes, moves 2, 5, 11 and 14."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Front Kick Balance",
+        "detail": "Same drill on a pad, then the front kick as the first half of the form combo.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Baseline test: establish your own starting number"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?"
+    },
+    {
+      "week": 1,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Kneel-to-stand hip drive reps, then pogo hops (priming the front kick)",
+        "stance": "Weighted low lunge hold, 1 minute: tall posture, knees hover an inch or less off the floor. Go straight into form stances."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "T→P",
+        "conditioning": "High-low round kicks, 20 sec each leg. Beat your count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Mix & Review",
+        "detail": "Moves 19–21 linked, both skills in one sequence. Group 2 (new to In Wha 1, moves 1-18): moves 1–18 at speed."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Front Kick Balance",
+        "detail": "Partners judge balance and the 1001 hold.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "P: Group rotation",
+        "detail": "Groups rotate Out, Shadow, Defender, back to the end of the line, 30 to 60 seconds a turn. Group by size and assertiveness so matchups stay even."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "Baseline test: establish your own starting number"
+      },
+      "cue": "Drill Cue: \"Speed\": foot up, foot down. Reset faster than you kicked."
+    },
+    {
+      "week": 2,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Kneel-to-stand hip drive reps, then pogo hops (priming the front kick)",
+        "stance": "Weighted low lunge hold, 1 minute (heavier or longer than week 1). Go straight into form stances so the deep position feels familiar."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "T→P",
+        "conditioning": "High-low round kicks, 45 sec each leg. Record your count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "I: Debrief, what worked?",
+        "detail": "Short Shadow Monster rounds, then ask what helped them turn or escape. Students share tips with the group. Still no scripted technique."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 5 Intro, Part 3",
+        "detail": "Moves 22–23: L Reverse Vertical Punch → R Vertical Punch. Body position and stances first. Memory device for the four hand techniques after the kick combo: vertical, vertical, punch, knifehand. Group 2 (new to In Wha 1, moves 1-18): power on the KI-HAP vertical back elbow strike (move 14)."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Front Kick",
+        "detail": "Front kick the board, break it, hold your balance. Level the board up as much as you want.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Baseline test: establish your own starting number"
+      },
+      "cue": "Drill Cue: \"Reaction\": eyes on the pad, kick the instant it pops."
+    },
+    {
+      "week": 2,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Kneel-to-stand hip drive reps, then pogo hops (priming the front kick)",
+        "stance": "Weighted low lunge hold, 1 minute (heavier or longer than week 1). Go straight into form stances so the deep position feels familiar."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "P",
+        "conditioning": "High-low round kicks, 45 sec each leg.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 5 Intro, Part 4",
+        "detail": "Moves 24–25: step forward to R back stance, L Punch (KI-HAP) → L Knifehand Strike (high). Segment 5 complete (moves 19–25). Group 2 (new to In Wha 1, moves 1-18): full run of moves 1–18."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Front Kick",
+        "detail": "Same, level up through the class.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "T: Try a classmate's idea",
+        "detail": "Shadow Monster in size-matched pairs. Each defender picks one idea shared in class and tests it."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Baseline test: establish your own starting number"
+      },
+      "cue": "Self-Esteem Q: Which technique felt faster or stronger than last week, and what did you change?"
+    },
+    {
+      "week": 2,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip circles, leg swings (front/side), ankle rolls",
+        "activation": "Kneel-to-stand hip drive reps, then pogo hops (priming the front kick)",
+        "stance": "Weighted low lunge hold, 1 minute (heavier or longer than week 1). Go straight into form stances so the deep position feels familiar."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "Mix & Review",
+        "conditioning": "Retest 20 sec, then 45 sec. Compare with week 1.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "4-Count Cross, 4-Count Switch"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "P: Group rotation and debrief",
+        "detail": "Larger rotation, new partners each turn, then a two-minute debrief on what worked against bigger and smaller partners."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Mix & Review",
+        "detail": "Segment 5 complete, moves 19–25 as one sequence, then with the kick combo balance held. Group 2 (new to In Wha 1, moves 1-18): moves 1–18."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Front Kick",
+        "detail": "Break and hold, partners judge balance.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "Baseline test: establish your own starting number"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    },
+    {
+      "week": 3,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds and shuffles, priming quick direction change",
+        "stance": "Wall sit, two legs first, progressing toward one leg. Then form stances at the same depth."
+      },
+      "sparring": {
+        "theme": "Defense / Counter",
+        "itp": "I",
+        "conditioning": "Switch front kicks, 45 sec each leg. Record your count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 6 Intro, Part 1",
+        "detail": "Moves 26–28: R High/Low Block (closed stance) → L Double Knifehand Block → R Reverse Horizontal Spearhand Strike. Teach the intent of the high/low block with a partner so it can be done with speed and power. Group 2 (new to In Wha 1, moves 1-18): speed on moves 6–9."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Individual",
+        "technique": "Side Kick Balance",
+        "detail": "Balanced side kick: hold 1001, then kick the target. Not breaking boards yet.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Leg battles: stay connected, stay low",
+        "detail": "If the shadow lifts you, wrap a leg around theirs like a grapevine so you keep contact and leverage. Back on the floor, set a stance and keep your hips lower than the shadow's."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Drill Cue: \"Defense / Counter\": hands up, hips tall, finish the kick and recover."
+    },
+    {
+      "week": 3,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds and shuffles, priming quick direction change",
+        "stance": "Wall sit, two legs first, progressing toward one leg. Then form stances at the same depth."
+      },
+      "sparring": {
+        "theme": "Defense / Counter",
+        "itp": "I→T",
+        "conditioning": "Switch front kicks, 45 sec each leg.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Leg battles: split the stance",
+        "detail": "Defender steps back between the shadow's legs into a front stance, rotates toward that leg and pries the near leg out. This breaks the base like a lever and lets you turn in and square up."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 6 Refine",
+        "detail": "Moves 26–28 refined: start position, trajectory, follow through. Group 2 (new to In Wha 1, moves 1-18): moves 10–18."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Side Kick Balance",
+        "detail": "Hold 1001 then kick, pad held by a partner.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    },
+    {
+      "week": 3,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds and shuffles, priming quick direction change",
+        "stance": "Wall sit, two legs first, progressing toward one leg. Then form stances at the same depth."
+      },
+      "sparring": {
+        "theme": "Defense / Counter",
+        "itp": "T→P",
+        "conditioning": "Switch front kicks, 45 sec each leg. Beat your count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Mix & Review",
+        "detail": "Moves 19–28 linked. Group 2 (new to In Wha 1, moves 1-18): moves 1–18."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Target",
+        "technique": "Side Kick Balance",
+        "detail": "Same drill, partners judge balance.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Leg battles: step around behind",
+        "detail": "Move to a middle stance and step around behind the shadow's stance, then pull them backward off balance. Mix all three leg battles in Shadow Monster rounds."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Self-Esteem Q: When your legs got tired today, what did you tell yourself to keep going?"
+    },
+    {
+      "week": 4,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds and shuffles, priming quick direction change",
+        "stance": "Death by squats: every 10 seconds do one more squat than the round before, until you miss. Then hold proper form stances while your legs burn."
+      },
+      "sparring": {
+        "theme": "Situational Sparring (Tournament Week)",
+        "itp": "T→P",
+        "conditioning": "Switch front kicks, 45 sec each leg.",
+        "situational": "Partner A is down 0 to 1 with 20 seconds to tie or win. Call it with tournament points. A third person judges. Groups of three or more.",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Hand battles: body lock",
+        "detail": "Two hands against one. Attack the exposed thumb of the top hand: palm over the thumb, fingers wrap to the back of the pinky, pry up and press down like a dip so the wrist bends in like a gooseneck. Once one hand breaks free there is room to escape."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 6 Intro, Part 2",
+        "detail": "Moves 29–31: L #1 Outer Crescent Kick with a 180 degree turn → R Outer Knifehand Block → L Punch. Pivot the heel back toward where the foot lands, look over the shoulder, raise the leg, and let the body draw the rainbow. Land in a middle stance. Group 2 (new to In Wha 1, moves 1-18): speed on the inner crescent kicks (moves 3 and 12)."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Side Kick",
+        "detail": "Side kick on boards, level up through the week.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Self-Esteem Q: Who helped you get better today, and how did you help someone else?"
+    },
+    {
+      "week": 4,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds and shuffles, priming quick direction change",
+        "stance": "Death by squats: every 10 seconds do one more squat than the round before, until you miss. Then hold proper form stances while your legs burn."
+      },
+      "sparring": {
+        "theme": "Situational Sparring (Tournament Week)",
+        "itp": "P",
+        "conditioning": "Switch front kicks, 45 sec each leg.",
+        "situational": "Partner A leads 2 to 1 and may only defend and counter. Partner B is trying to score.",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 6 Refine",
+        "detail": "Moves 29–31: precision and balance first, then start adding speed and power. Group 2 (new to In Wha 1, moves 1-18): full run of moves 1–18."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Side Kick",
+        "detail": "Same, one attempt per level.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Hand battles: bear hug",
+        "detail": "Shrug and make space with the elbows, work the arms up and through. One arm always checks the attacker's hands like a one-handed pull-up so they cannot slide to a choke. Finish as a body lock escape. Never push the bear hug up, it becomes a rear choke."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    },
+    {
+      "week": 4,
+      "cls": "C",
+      "dayLabel": "Fri / Sat (Top Gun Tournament Sat 11/21)",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Lateral lunges, torso rotations, shoulder circles",
+        "activation": "Lateral bounds and shuffles, priming quick direction change",
+        "stance": "Death by squats: every 10 seconds do one more squat than the round before, until you miss. Then hold proper form stances while your legs burn."
+      },
+      "sparring": {
+        "theme": "Situational Sparring (Tournament Week)",
+        "itp": "Mix & Review",
+        "conditioning": "Switch front kicks, 45 sec each leg.",
+        "situational": "Shortened tournament matches: first to 3 points, everyone starts 0-0.",
+        "footwork": "Horizontal Line Movement"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Hand battles: both holds, rotate",
+        "detail": "Each student breaks the grip for 1 minute, then switch. Rotate partners to feel different sizes and body types, 5 to 7 minutes."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Mix & Review",
+        "detail": "Segment 6 complete (moves 26–31) and linked to segment 5 (moves 19–31). Group 2 (new to In Wha 1, moves 1-18): moves 1–18."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Board",
+        "technique": "Side Kick",
+        "detail": "Level up, finish with front kick and side kick both on boards.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "Beat your own baseline"
+      },
+      "cue": "Drill Cue: \"Distance\": maintain space with the side kick, never let the zombie close."
+    },
+    {
+      "week": 5,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops, priming quick-reset footwork",
+        "stance": "Static block drill, feet locked in the stance: a partner strikes a shield with speed and power, and the block has to strike the strike (start position, trajectory, follow through)."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "I",
+        "conditioning": "High-low round kicks: retest the weeks 1-2 count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 7 Intro",
+        "detail": "Moves 32–38 mirror 19–25 on the opposite side: L Square Block (270 degrees counterclockwise), L #2 Front Kick → R Side Kick (KI-HAP), R Reverse Vertical Punch, L Vertical Punch, R Punch, R Knifehand Strike. Focus on pattern and memorization rather than re-teaching every technique. Group 2 (new to In Wha 1, moves 1-18): balance games on moves 1–18."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Combative Target",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Groups of three: two partners plus one target in a triangle. Front kick to a partner's pad and side kick to the target, or the reverse.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Counterattack: strike with intent",
+        "detail": "Three intentions for any strike: distract (so you can set a base or fight the hands), stun (so you can break free and square up), incapacitate (take sight, breath or mobility). Teach targets, not scripted techniques. Light-touch contact only."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Self-Esteem Q: What is one thing you did today that you're proud of, even if it wasn't perfect?"
+    },
+    {
+      "week": 5,
+      "cls": "B",
+      "dayLabel": "Wed / Thu (Thanksgiving Thu 11/26)",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops, priming quick-reset footwork",
+        "stance": "Static block drill, feet locked in the stance: a partner strikes a shield with speed and power, and the block has to strike the strike (start position, trajectory, follow through)."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "I→T",
+        "conditioning": "High-low round kicks, 45 sec each leg.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Counterattack: find the targets",
+        "detail": "Light-touch partner work: name the target, choose any strike, and use it to free yourself. The shadow releases when struck. No hard contact."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 7 Refine",
+        "detail": "Moves 32–38 with the kick combo drilled for balance then speed. Group 2 (new to In Wha 1, moves 1-18): precision games on moves 1–18."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Combative Target",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Same triangle, rotate positions each round.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Drill Cue: \"Reading the Opponent\": watch the pad, pick the weapon."
+    },
+    {
+      "week": 5,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops, priming quick-reset footwork",
+        "stance": "Static block drill, feet locked in the stance: a partner strikes a shield with speed and power, and the block has to strike the strike (start position, trajectory, follow through)."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "T→P",
+        "conditioning": "High-low round kicks, compare with weeks 1-2.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Mix & Review",
+        "detail": "Moves 19–38 linked. Group 2 (new to In Wha 1, moves 1-18): moves 1–18."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Combative Target",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Same triangle, 60-second burnout each person.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Counterattack: group rotation",
+        "detail": "Combine leg battles, hand battles and a strike. Rotate partners and finish at a safe distance every time."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    },
+    {
+      "week": 6,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops, priming quick-reset footwork",
+        "stance": "Static block drill again with more partner speed. Hold the stance, do not just set the hands. Blocks must hit back."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "T→P",
+        "conditioning": "Switch front kicks: retest the week 3 count.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "I: Escape play",
+        "detail": "Students find their own ways out. The only rule: end free and at a safe distance."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 8 Intro",
+        "detail": "Moves 39–44 mirror 26–31: L High/Low Block → R Double Knifehand Block → L Reverse Horizontal Spearhand Strike → R #1 Outer Crescent Kick (turn 180 clockwise) → L Outer Knifehand Block → R Punch. Group 2 (new to In Wha 1, moves 1-18): speed and power on moves 1–18."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Combative Board",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Triangle with one target and one board: the partner's shield is swapped for a board they hold.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    },
+    {
+      "week": 6,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops, priming quick-reset footwork",
+        "stance": "Static block drill again with more partner speed. Hold the stance, do not just set the hands. Blocks must hit back."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "P",
+        "conditioning": "Switch front kicks, 45 sec each leg.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Segment 8 Refine",
+        "detail": "Moves 39–44 refined. Note the outer crescent kick turns the other direction this time."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Combative Board",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Same, then flip which kick goes to the board.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "T: Escape play with options",
+        "detail": "Resisting partner, change one variable each round (size, grip, direction). If a takedown is used, end in side control, half mount or knee on belly or back, then break away. Full mount is for adults only."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Drill Cue: \"Power\": drive through the target, not to it."
+    },
+    {
+      "week": 6,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Hip flexor stretch, dynamic knee hugs",
+        "activation": "Jump rope or pogo hops, priming quick-reset footwork",
+        "stance": "Static block drill again with more partner speed. Hold the stance, do not just set the hands. Blocks must hit back."
+      },
+      "sparring": {
+        "theme": "Speed Conditioning",
+        "itp": "Mix & Review",
+        "conditioning": "Both conditioning drills back to back, compare with earlier counts.",
+        "noContact": "Free sparring, continuous rather than point based.",
+        "footwork": "3-Count Footwork (*Out, *Up/Up, *Angle/Angle)"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "P: Group rotation, escape play",
+        "detail": "Practice until you escape, then rotate. Vary partners by size and strength."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Whole Form Complete",
+        "detail": "Moves 1–44 run for pattern. Group 2 (new to In Wha 1, moves 1-18): moves 1–18."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Combative Board",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Same, level the boards up.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "Beat your own baseline (bigger target)"
+      },
+      "cue": "Self-Esteem Q: Which technique felt faster or stronger than last week, and what did you change?"
+    },
+    {
+      "week": 7,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Full-body dynamic flow",
+        "activation": "Mixed plyo matched to whatever is being reviewed",
+        "stance": "Dynamic line drill: step and block down the floor, strong base on every landing."
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "itp": "Review",
+        "conditioning": "Conditioning warm-up drill.",
+        "noContact": "Rounds of testing sparring: testing time, minimal rest, fighting with fatigue.",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Strong and Balanced",
+        "detail": "Full form. Stance check game for balance, mic check for strong (partners count uniform pops). Group 2 (new to In Wha 1, moves 1-18): moves 1–18."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Testing Level",
+        "technique": "Front Kick",
+        "detail": "Both stations are boards at each student's testing level: orange, green or blue, brown for adults. One technique at a time as at testing.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "I to T: Shadow Monster, live",
+        "detail": "Shadow Monster returns with a more active shadow. Striking frees the defender. Read, react and look for targets. Goal every time: free, at a safe distance."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Maintain: hold current level"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    },
+    {
+      "week": 7,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Full-body dynamic flow",
+        "activation": "Mixed plyo matched to whatever is being reviewed",
+        "stance": "Dynamic line drill: step and block down the floor, strong base on every landing."
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "itp": "Review",
+        "conditioning": "Conditioning warm-up drill.",
+        "noContact": "Rounds of testing sparring, keep stamina up through the last round.",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "T to P: Live rounds",
+        "detail": "Rotating partners, more active shadows, 45-second turns. Defenders use leg battles, hand battles and strikes in any order."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Fast and Focused",
+        "detail": "Noodle catch game for speed, operation or moving target for focus. Group 2 (new to In Wha 1, moves 1-18): moves 1–18."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Testing Level",
+        "technique": "Side Kick",
+        "detail": "Same, one technique at a time.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Maintain: hold current level"
+      },
+      "cue": "Self-Esteem Q: When your legs got tired today, what did you tell yourself to keep going?"
+    },
+    {
+      "week": 7,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Full-body dynamic flow",
+        "activation": "Mixed plyo matched to whatever is being reviewed",
+        "stance": "Dynamic line drill: step and block down the floor, strong base on every landing."
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "itp": "Review",
+        "conditioning": "Conditioning warm-up drill.",
+        "noContact": "Rounds of testing sparring, flow and timing.",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Review",
+        "detail": "All four attributes in one full form run, flag the weakest."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Testing Level",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Both techniques at testing level.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "P: Test format practice",
+        "detail": "Practice the test format once: turn around, unknown attack (body lock, bear hug or a mix, any size), 30 seconds, escape."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "Maintain: hold current level"
+      },
+      "cue": "Drill Cue: \"Review / Testing Preparation\": stay tall, hands up, breathe between reps."
+    },
+    {
+      "week": 8,
+      "cls": "A",
+      "dayLabel": "Mon / Tue",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Full-body dynamic flow",
+        "activation": "Mixed plyo matched to whatever is being reviewed",
+        "stance": "Dynamic line drill: step and block down the floor, then run one form with the same strong base."
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "itp": "Partner Review",
+        "conditioning": "Conditioning warm-up drill.",
+        "noContact": "Rounds of testing sparring.",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Polish: flagged weak points",
+        "detail": "Targeted work on the holds and escapes that stayed weak in week 7."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Polish",
+        "detail": "Targeted polish on flagged weak points."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Testing Level",
+        "technique": "Front Kick",
+        "detail": "Rehearse the testing break, one technique at a time.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Single-Leg Reverse Lunge Hold (alternating)",
+        "format": "Max hold, per side",
+        "standard": "Back knee hovers an inch off the floor, front shin vertical, torso tall. Touching down ends the hold.",
+        "phase": "Light day: no max-effort test (taper before retest)"
+      },
+      "cue": "Drill Cue: \"Review / Testing Preparation\": perform it exactly as you will at testing."
+    },
+    {
+      "week": 8,
+      "cls": "B",
+      "dayLabel": "Wed / Thu",
+      "primaryFocus": "Forms",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Full-body dynamic flow",
+        "activation": "Mixed plyo matched to whatever is being reviewed",
+        "stance": "Dynamic line drill: step and block down the floor, then run one form with the same strong base."
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "itp": "Partner Review",
+        "conditioning": "Conditioning warm-up drill.",
+        "noContact": "Rounds of testing sparring.",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Forms — In Wha 1",
+        "stage": "Full Run-Through",
+        "detail": "Moves 1–44 assembled (new students 1–18). Flag weak points."
+      },
+      "seg4": {
+        "label": "Board Break",
+        "stage": "Testing Level",
+        "technique": "Side Kick",
+        "detail": "Rehearse the testing break, one technique at a time.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "seg5": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Full run-through",
+        "detail": "Live rounds with every tool, partners rotate. Flag anyone who needs extra reps before testing."
+      },
+      "dailyChallenge": {
+        "move": "Mountain Climbers",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts each time a knee drives to the chest. Hands under shoulders, hips level, no piking.",
+        "phase": "Light day: no max-effort test (taper before retest)"
+      },
+      "cue": "Self-Esteem Q: Who helped you get better today, and how did you help someone else?"
+    },
+    {
+      "week": 8,
+      "cls": "C",
+      "dayLabel": "Fri / Sat",
+      "primaryFocus": "Self-Defense",
+      "warmup": {
+        "mindset": "60 seconds, eyes closed or soft focus. Name today's goal out loud.",
+        "mobility": "Full-body dynamic flow",
+        "activation": "Mixed plyo matched to whatever is being reviewed",
+        "stance": "Dynamic line drill: step and block down the floor, then run one form with the same strong base."
+      },
+      "sparring": {
+        "theme": "Review / Testing Preparation",
+        "itp": "Testing Ready",
+        "conditioning": "Conditioning warm-up drill.",
+        "noContact": "Mock testing: sparring exactly as at testing.",
+        "footwork": "Combined review of all three footwork patterns"
+      },
+      "seg3": {
+        "label": "Self-Defense — Body Lock and Bear Hug",
+        "stage": "Testing Ready: mock escape test",
+        "detail": "Turn around, unknown attack, 30 seconds, up to 3 attempts. Pass or fail on whether you escaped."
+      },
+      "seg4": {
+        "label": "Forms — In Wha 1",
+        "stage": "Testing Ready",
+        "detail": "Mock testing and dress rehearsal."
+      },
+      "seg5": {
+        "label": "Board Break",
+        "stage": "Dress Rehearsal",
+        "technique": "Front Kick + Side Kick",
+        "detail": "Mock testing at testing board level.",
+        "note": "Board level is individualized: the student's own size and ability. Level up only after 3 consecutive first-try breaks. Any miss means stay at the current board."
+      },
+      "dailyChallenge": {
+        "move": "Glute Bridges",
+        "format": "AMRAP 30 sec",
+        "standard": "Rep counts only at full hip extension (shoulders, hips, knees in a line) with a glute squeeze at the top.",
+        "phase": "RETEST: compare to Week 1-2 baseline"
+      },
+      "cue": "Coach's Note: Board level is individual. Celebrate the student who levels up as much as the one who lands a perfect first-try break."
+    }
+  ]
+}
