@@ -167,7 +167,7 @@
       "seg4": {
         "label": "Forms — Songahm 3",
         "stage": "Refine & Combine",
-        "detail": "Segments 1–3 together (moves 1–6)"
+        "detail": "Segments 1–2 together (moves 1–6)"
       },
       "seg3": {
         "label": "Weapon — Gumdo",
@@ -215,7 +215,7 @@
       },
       "seg3": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 3 Intro",
+        "stage": "Segment 2 Intro",
         "detail": "Moves 5–6: L Knifehand Low Block → L Knifehand High Block"
       },
       "warmup": {
@@ -289,7 +289,7 @@
       },
       "seg3": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 4 Intro",
+        "stage": "Segment 3 Intro",
         "detail": "Moves 7–10: R Punch (KI-HAP) → L Punch (KI-HAP) → R Vert. Spearhand → L Vert. Spearhand — taught as one continuous combo"
       },
       "seg4": {
@@ -338,7 +338,7 @@
       },
       "seg4": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 4 Refine",
+        "stage": "Segment 3 Refine",
         "detail": "Clean up mechanics, add speed and precision"
       },
       "seg5": {
@@ -378,7 +378,7 @@
       "seg3": {
         "label": "Forms — Songahm 3",
         "stage": "Mix & Review",
-        "detail": "Segment 4 combined with Segments 1–3 (moves 1–10)"
+        "detail": "Segment 3 combined with Segments 1–2 (moves 1–10)"
       },
       "seg4": {
         "label": "Board Break",
@@ -430,7 +430,7 @@
       },
       "seg4": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 4 Pressure Test",
+        "stage": "Segment 3 Pressure Test",
         "detail": "Performed under light pressure/fatigue"
       },
       "seg3": {
@@ -479,7 +479,7 @@
       },
       "seg3": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 4 Application",
+        "stage": "Segment 3 Application",
         "detail": "Full speed and power"
       },
       "warmup": {
@@ -553,7 +553,7 @@
       },
       "seg3": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 5 Intro",
+        "stage": "Segment 4 Intro",
         "detail": "Moves 11–12: R Low Block → L Reverse Punch"
       },
       "seg4": {
@@ -602,7 +602,7 @@
       },
       "seg4": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 5 Refine",
+        "stage": "Segment 4 Refine",
         "detail": "Clean up mechanics, add speed and precision"
       },
       "seg5": {
@@ -642,7 +642,7 @@
       "seg3": {
         "label": "Forms — Songahm 3",
         "stage": "Mix & Review",
-        "detail": "Segment 5 combined with Segments 1–4 (moves 1–12)"
+        "detail": "Segment 4 combined with Segments 1–3 (moves 1–12)"
       },
       "seg4": {
         "label": "Board Break",
@@ -694,7 +694,7 @@
       },
       "seg4": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 6 Refine",
+        "stage": "Segment 4 Refine",
         "detail": "Full form assembled (moves 1–14)"
       },
       "seg3": {
@@ -743,7 +743,7 @@
       },
       "seg3": {
         "label": "Forms — Songahm 3",
-        "stage": "Segment 6 Intro",
+        "stage": "Segment 4 Intro",
         "detail": "Moves 13–14: R #3 Jump Front Kick → L Reverse Punch"
       },
       "warmup": {
@@ -818,7 +818,7 @@
       "seg3": {
         "label": "Forms — Songahm 3",
         "stage": "Review",
-        "detail": "Segments 1–3 (moves 1–6)"
+        "detail": "Segments 1–2 (moves 1–6)"
       },
       "seg4": {
         "label": "Board Break",
@@ -867,7 +867,7 @@
       "seg4": {
         "label": "Forms — Songahm 3",
         "stage": "Review",
-        "detail": "Segment 4 (moves 7–10)"
+        "detail": "Segment 3 (moves 7–10)"
       },
       "seg5": {
         "label": "Board Break",
@@ -906,7 +906,7 @@
       "seg3": {
         "label": "Forms — Songahm 3",
         "stage": "Review",
-        "detail": "Segments 5–6 (moves 11–14); full run-throughs"
+        "detail": "Segment 4 (moves 11–14); full run-throughs"
       },
       "seg4": {
         "label": "Board Break",
